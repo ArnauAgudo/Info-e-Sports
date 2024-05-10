@@ -27,7 +27,8 @@ header{
 .logo{
     text-decoration: none;
     color: rgb(228, 198, 198);
-    font-size: 65px;   
+    font-size: 65px; 
+    text-align: left;  
 }
 
 #headerprincipal nav ul li{ 
@@ -42,6 +43,7 @@ h1, h2, h3{
     color: rgb(228, 198, 198);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
+    text-align: center;
 }
 
 .logoequipo{
@@ -62,4 +64,30 @@ h1, h2, h3{
    width: 300px; 
    height: 340px; 
    object-fit: cover;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(53, 48, 48);
+    color: rgb(82, 12, 12);
+    background-color: rgb(228, 198, 198);
+}
+th {
+    background-color: rgb(228, 198, 198);
+}
+
+.medidaimg img{
+    height: 70px;
+    width: 70px;
+}
+
+.medidaimg2 img{
+    height: 100px;
+    width: 100px;
 }
